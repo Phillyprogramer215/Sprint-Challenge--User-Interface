@@ -81,7 +81,7 @@ a{
     color:blue;
 }
 .header-image img{
-    margin:50px 0;
+    margin:25px 0;
 }
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -227,8 +227,11 @@ hr{
     width:92%;
 }
 .topText{
-    margin-top:30px 20px;
+    margin-top:50px;
 }
 .footerText{
+    margin-top:30px;
+}
+.headerImage{
     margin-top:30px;
 }
