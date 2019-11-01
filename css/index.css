@@ -55,7 +55,34 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+.header{
+    display:flex;
+    width:100%;
+    
+}
+a{
+    margin:50px;
+}
+.header nav{
+    justify-content: center;
+    margin:20px;
+    text-transform: none;
+}
+.header a{
+	justify-content: space-between;
+    width:100%;
+    align-content: center;
+    color:black;
+    margin:30px 30px;
+    justify-content: center;
+    text-decoration: none;
+}
+.header a:hover{
+    color:blue;
+}
+.header-image img{
+    margin:30px 0;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -138,9 +165,41 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    height:20px;
+    margin-top:20px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.middle-content .boxes .box-1{
+    background-color:teal;
+}
+.middle-content .boxes .box-2{
+    background-color:gold;
+}
+.middle-content .boxes .box-3{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box-4{
+    background-color:coral;
+}
+.middle-content .boxes .box-5{
+    background-color:crimson;
+}
+.middle-content .boxes .box-6{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box-7{
+    background-color:darkorchid;
+}
+.middle-content .boxes .box-8{
+    background-color:hotpink;
+}
+.middle-content .boxes .box-9{
+    background-color:indigo;
+}
+.middle-content .boxes .box-10{
+    background-color:dodgerblue;
 }
